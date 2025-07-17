@@ -40,3 +40,4 @@ htmlcov/
 
 # Otros archivos específicos (si tienes)
 *.sqlite3
+.env
