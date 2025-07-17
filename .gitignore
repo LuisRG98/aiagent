@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Distribuciones y archivos de construcción
+build/
+dist/
+*.egg-info/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de sistema
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Archivos de configuraciones locales de editores (opcional)
+.vscode/
+.idea/
+
+# Archivos de pruebas y reportes
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Archivos generados por Jupyter notebooks
+.ipynb_checkpoints/
+
+# Otros archivos específicos (si tienes)
+*.sqlite3
