@@ -1,10 +1,5 @@
-from services.transcriber import transcribe_audio
-from agent.agent import MeetingAgent
+# main.py
+from core.meeting import run_meeting_assistant
 
 if __name__ == "__main__":
-    print("🎙 Transcribiendo reunión...")
-    transcript = transcribe_audio("data/meeting.mp3")
-
-    agent = MeetingAgent(transcript)
-    agent.deliberate()
-    agent.execute()
+    run_meeting_assistant("data/meeting.mp3")
